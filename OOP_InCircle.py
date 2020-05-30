@@ -18,7 +18,7 @@ class Prerequistes():
     tri_area = x**0.5
     incircle_radius = tri_area / s    
     self.radius = incircle_radius
-    print('Incricle radius :  'incircle_radius)
+    print(f'Incricle radius :  {incircle_radius} unit')
 
     
 
