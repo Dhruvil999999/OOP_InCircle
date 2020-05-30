@@ -29,27 +29,27 @@ class InCircle(Prerequistes):
     pass
 
   def area(self):
-    Prerequistes.incircle_radius(self,int(input('side a')),int(input('side b')),int(input('side c')))
+    Prerequistes.incircle_radius(self,int(input('side a :  ')),int(input('side b :  ')),int(input('side c :  ')))
     return (self.radius ** 2) * self.pi
 
   def circumference(self):
-    Prerequistes.incircle_radius(self,int(input('side a')),int(input('side b')),int(input('side c')))
+    Prerequistes.incircle_radius(self,int(input('side a :  ')),int(input('side b :  ')),int(input('side c :  ')))
     return 2 * self.pi * self.radius
 
   def area_sector(self,theta): #theta in degrees
-    Prerequistes.incircle_radius(self,int(input('side a')),int(input('side b')),int(input('side c')))
+    Prerequistes.incircle_radius(self,int(input('side a :  ')),int(input('side b :  ')),int(input('side c :  ')))
     return (theta * self.pi * (self.radius ** 2)) / 360
 
   def arc_length(self,theta): #theta in degrees
-    Prerequistes.incircle_radius(self,int(input('side a')),int(input('side b')),int(input('side c')))
+    Prerequistes.incircle_radius(self,int(input('side a :  ')),int(input('side b :  ')),int(input('side c :  ')))
     return (theta * 2 * self.pi * self.radius) / 360
 
   def area_sector_rad(self,theta): #theta in radians
-    Prerequistes.incircle_radius(self,int(input('side a')),int(input('side b')),int(input('side c')))
+    Prerequistes.incircle_radius(self,int(input('side a :  ')),int(input('side b :  ')),int(input('side c :  ')))
     return (theta * (self.radius ** 2)) / 2
 
   def arc_length_rad(self,theta): #theta in radians
-    Prerequistes.incircle_radius(self,int(input('side a')),int(input('side b')),int(input('side c')))
+    Prerequistes.incircle_radius(self,int(input('side a :  ')),int(input('side b :  ')),int(input('side c :  ')))
     return (theta * self.radius)
 
 
