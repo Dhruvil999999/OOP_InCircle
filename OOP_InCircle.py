@@ -51,6 +51,8 @@ class InCircle(Prerequistes):
     Prerequistes.incircle_radius(self,int(input('side a')),int(input('side b')),int(input('side c')))
     return (theta * self.radius)
 
-k = InCircle()
 
+  
+# Example  
+k = InCircle()
 k.incircle_radius(3,4,5)
